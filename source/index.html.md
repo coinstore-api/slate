@@ -251,6 +251,7 @@ HTTP常见的错误码如下：
 
 |    code    |  type   | required |       comment        |
 | ---------- | ------- | -------- | -------------------- |
+|  |  |  |  |
 
 
 ### 响应数据
@@ -355,6 +356,7 @@ HTTP常见的错误码如下：
 - POST /trade/order/cancelAll
 
 ### 请求参数
+
 |    code    |  type   | required |       comment        |
 | ---------- | ------- | -------- | -------------------- |
 | symbol     | string | false| 不传撤销所有币对订单 |
@@ -436,6 +438,7 @@ HTTP常见的错误码如下：
 ```
 
 ### 响应数据
+
 |       code        |  type  |        example        |                      comment                       |
 | ----------------- | ------ | --------------------- | -------------------------------------------------- |
 | code            | int    | 0                     |     0：成功，其他失败                                               |
@@ -453,6 +456,7 @@ HTTP常见的错误码如下：
 - POST trade/order/cancelBatch
 
 ### 请求参数
+
 |    code    |  type   | required |       comment        |
 | ---------- | ------- | -------- | -------------------- |
 |symbol | string | Y |  "BTCUSDT"|
@@ -560,6 +564,7 @@ HTTP常见的错误码如下：
 > 查询指定交易对: /v1/ticker/price;symbol=btcusdt,eosusdt,autusdt `
 
 ### 响应数据: 
+
 |       code        |  type  |        example        |                      comment                       |
 | ----------------- | ------ | --------------------- | -------------------------------------------------- |
 | code            | int    | 0                     |     0：成功，其他失败                                               |
